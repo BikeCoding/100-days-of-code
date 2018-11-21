@@ -16,6 +16,6 @@ Drum Kit: i watched Wes's demo and coded before watching his solution.
 One thing that i have to improve: when pressing the key - the backgrounColor changes, the music plays THEN the background changes again.
 Now, the color doesn't comes backs to initial state.
 
-**Link to code:** [Dynamic Shopping List - version 1.0](http://www.example.com)
+**Link to code:** [Dynamic Shopping List - version 1.0](https://tinyurl.com/ShopList-day1-100daysofcode)
 
-**Link to code:** [Drum Kit - version 1.0 - version 1.0](http://www.example.com)
+**Link to code:** [Drum Kit - version 1.0 - version 1.0](https://tinyurl.com/DrumKit-day1-100daysofcode)
