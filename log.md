@@ -1,30 +1,21 @@
 # 100 Days Of Code - Log
 
-### Day 0: February 30, 2016 (Example 1)
-##### (delete me or comment me out)
+### Day 1: November 20, 2018
 
-**Today's Progress**: Fixed CSS, worked on canvas functionality for the app.
+**Today's Progress**: 
 
-**Thoughts:** I really struggled with CSS, but, overall, I feel like I am slowly getting better at it. Canvas is still new for me, but I managed to figure out some basic functionality.
+coded a simple vanilla javascript dynamic shopping list - inspired by Mozilla's Developer JavaScript article:
+https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Client-side_web_APIs/Manipulating_documents.
 
-**Link to work:** [Calculator App](http://www.example.com)
+codes a first version of a DrumKit - inspired by Wes Bos's JavaScript 30!
 
-### Day 0: February 30, 2016 (Example 2)
-##### (delete me or comment me out)
+**Thoughts:** I'm studying vanilla javascript and started searching for some tutorials + project's ideas. So, i found this dynamic shopping list.
+I saw the picture of the demo and started coding. One thing that i tried to do was use an external javascript file, but this didn't work so i used the -script- tags, so later i will check how to do it. When i finished i compared my code with the demo. It has some differences but, in the end, it's working ok. Later i'm gonna refactor this =)
 
-**Today's Progress**: Fixed CSS, worked on canvas functionality for the app.
+Drum Kit: i watched Wes's demo and coded before watching his solution. 
+One thing that i have to improve: when pressing the key - the backgrounColor changes, the music plays THEN the background changes again.
+Now, the color doesn't comes backs to initial state.
 
-**Thoughts**: I really struggled with CSS, but, overall, I feel like I am slowly getting better at it. Canvas is still new for me, but I managed to figure out some basic functionality.
+**Link to code:** [Dynamic Shopping List - version 1.0](http://www.example.com)
 
-**Link(s) to work**: [Calculator App](http://www.example.com)
-
-
-### Day 1: June 27, Monday
-
-**Today's Progress**: I've gone through many exercises on FreeCodeCamp.
-
-**Thoughts** I've recently started coding, and it's a great feeling when I finally solve an algorithm challenge after a lot of attempts and hours spent.
-
-**Link(s) to work**
-1. [Find the Longest Word in a String](https://www.freecodecamp.com/challenges/find-the-longest-word-in-a-string)
-2. [Title Case a Sentence](https://www.freecodecamp.com/challenges/title-case-a-sentence)
+**Link to code:** [Drum Kit - version 1.0 - version 1.0](http://www.example.com)
