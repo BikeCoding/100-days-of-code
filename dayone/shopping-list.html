@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>My shopping list</title>
+    <style>
+    </style>
+  </head>
+  <body>
+
+    <div id='main'>
+		<h1>My shopping list</h1>
+			<p>Enter a new item: 
+				<label for="new-item"><label>
+				<input type="text" id="newListItem" name="firstItem">
+				<button type="submit" onclick="addItem()">Add item</button>
+			</p>	
+	</div>
+	
+	<div>
+			<ul id="myShoppingList">
+				
+			</ul>	
+	</div>
+			
+	<script>
+		
+		var qtListItens = 0;
+		
+		function addItem (){
+	    	  var shoppingList = document.getElementById('myShoppingList');
+	    	  var li = document.createElement('li');
+			  
+	    	  li.textContent = document.getElementById('newListItem').value;
+			  qtListItens = qtListItens + 1;
+			  li.id = qtListItens;
+			  
+			  var button = document.createElement('button');
+			  button.innerText = "Delete";
+			  button.addEventListener("click", function (event){
+	  			var child = document.getElementById(li.id);
+	  			var parent = child.parentNode;
+			
+	  			parent.removeChild(child);
+				  
+			  });
+			  
+	    	  shoppingList.appendChild(li);
+			  li.appendChild(document.createTextNode(" "));
+			  document.getElementById("newListItem").value = "";
+			  li.appendChild(button);
+			  
+			  
+		}	
+		
+	</script>
+  </body>
+</html>
